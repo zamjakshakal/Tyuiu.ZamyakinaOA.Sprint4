@@ -13,9 +13,9 @@ namespace Tyuiu.ZamyakinaOA.Sprint4.Task3.V10.Lib
 
             for (int j = 0; j < colums; j++)
             {
-                if (array[3, j] >  maxx)
+                if (array[2, j] >  maxx)
                     {
-                        maxx = array[3, j];
+                        maxx = array[2, j];
                     }
             }
             return maxx;
