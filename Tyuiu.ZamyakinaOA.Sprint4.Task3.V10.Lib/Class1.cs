@@ -11,18 +11,12 @@ namespace Tyuiu.ZamyakinaOA.Sprint4.Task3.V10.Lib
 
             int maxx = 0;
 
-            for (int i = 0; i < rows; i++)
+            for (int j = 0; j < colums; j++)
             {
-                for (int j = 0; j < colums; j++)
-                {
-                    if (i == 3)
+                if (array[3, j] >  maxx)
                     {
-                        if (array[i, j] >  maxx)
-                        {
-                            maxx = array[i, j];
-                        }
+                        maxx = array[3, j];
                     }
-                }
             }
             return maxx;
         }
