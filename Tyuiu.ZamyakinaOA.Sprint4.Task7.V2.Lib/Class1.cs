@@ -13,7 +13,8 @@ namespace Tyuiu.ZamyakinaOA.Sprint4.Task7.V2.Lib
             {
                 for (int j = 0; j < m; j++)
                 {
-                    mtrx[i, j] = int.Parse(value.Substring(i * m + j, 1));
+                    mtrx[i, j] = int.Parse(value.Substring(index, 1));
+                    index++;
                 }
             }
 
