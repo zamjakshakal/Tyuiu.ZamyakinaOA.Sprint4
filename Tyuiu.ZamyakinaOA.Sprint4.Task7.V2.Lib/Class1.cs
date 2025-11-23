@@ -25,7 +25,7 @@ namespace Tyuiu.ZamyakinaOA.Sprint4.Task7.V2.Lib
                 {
                     if (mtrx[i, j] % 2 != 0)
                     {
-                        sum++;
+                        sum += mtrx[i, j];
                     }
                 }
             }
